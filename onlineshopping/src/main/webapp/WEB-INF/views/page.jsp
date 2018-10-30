@@ -40,7 +40,7 @@
   <body>
 
     <!-- Navigation -->
-	<%@include file="./shared/navbar.jsp"  %>
+	<%@include file="./shared/navbar.jsp"%>
     
     <!-- Page Content -->
 	<!-- Loading Home content -->
@@ -53,9 +53,9 @@
 	<%@include file="about.jsp"%>
 	</c:if>
 	
-	<!-- Load only when user clicks services -->
-	<c:if test = "${userClickServices == true}">
-	<%@include file="services.jsp"%>
+	<!-- Load only when user clicks product -->
+	<c:if test = "${userClickAllProducts == true or userClickCategoryProducts == true}">
+	<%@include file="listProducts.jsp"%>
 	</c:if>
 	
 	<!-- Load only user clicks contact -->

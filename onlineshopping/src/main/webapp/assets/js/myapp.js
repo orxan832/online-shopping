@@ -1,25 +1,24 @@
-$(function(){
-	
-	switch(menu){
-	
+$(function() {
+
+	switch (menu) {
+
 	case "About":
 		$("#about").addClass("active");
-	break;
-	
-	case "Services":
-		$("#services").addClass("active");
 		break;
-		
+
+	case "View Products":
+		$("#listProducts").addClass("active");
+		break;
+
 	case "Contact":
 		$("#contact").addClass("active");
 		break;
-		
+
 	default:
-		$("#home").addClass("active");
-	break;
-	
+		$("#listProducts").addClass("active");
+		$("#a_" + menu).addClass("active");
+		break;
+
 	}
-	
+
 });
-
-

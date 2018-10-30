@@ -4,7 +4,7 @@
         
         
         
-        <a class="navbar-brand" href="${contextRoot}/">Start Bootstrap</a>
+        <a class="navbar-brand" href="${contextRoot}/">Online Shopping</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,7 +17,7 @@
               <a class="nav-link" href="${contextRoot}/about">About</a>
             </li>            
             <li id="services" class="nav-item">
-              <a class="nav-link" href="${contextRoot}/services">Services</a>
+              <a class="nav-link" href="${contextRoot}/show/all/products">View Products</a>
             </li>                        
             <li id="contact" class="nav-item">
               <a class="nav-link" href="${contextRoot}/contact">Contact</a>
